@@ -6,8 +6,9 @@ import { createStore } from 'redux';
 
 import manageUsers from './reducers/manageUsers'
 
-ReactDOM.render(<Provider store={store}>
-  <App />
-  <Provider />,
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
