@@ -10,7 +10,7 @@ import manageUsers from './reducers/manageUsers'
 // add imports and code
 
 
-ReactDOM.render(
+ReactDOM.render(<Provider = {store}>
   // add imports and code
   <App />
   // add imports and code
